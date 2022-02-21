@@ -24,3 +24,8 @@ h1 {
 .container {
     margin: 50px auto;
 }
+
+#video-container {
+    margin: 0 auto;
+    text-align: center;
+}
