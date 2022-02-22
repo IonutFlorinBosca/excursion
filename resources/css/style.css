@@ -7,25 +7,55 @@ body {
     background-color: black;
 }
 
+h1,
+p,
+h2 {
+    color: white;
+}
+
 h1 {
     font-family: Verdana;
     font-weight: normal;
     font-size: 50px;
-    color: white;
     text-align: center;
 }
 
-.app-link {
-    font-size: 16px;
-    color: aquamarine;
-    text-align: center;
+h2 {
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 42px;
 }
 
 .container {
-    margin: 50px auto;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.info {
+    font-family: Verdana;
+    font-size: 21px;
+    color: Gray;
+    margin: 12px auto;
+    text-align: center;
+}
+
+p.app-link {
+    font-size: 16px;
+    color: aquamarine;
+    text-align: center;
+    margin: 15px auto;
+    text-align: center;
+}
+
+#copy {
+    text-align: right;
+    margin-right: 10px;
 }
 
 #video-container {
-    margin: 0 auto;
-    text-align: center;
+    margin-top: 15px;
+}
+
+#camping {
+    margin-top: 10px;;
 }
